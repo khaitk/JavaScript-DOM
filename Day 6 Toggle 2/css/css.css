@@ -1,0 +1,44 @@
+.thanhxanh{
+    height: 50px;
+    background-color: #3b5998;
+}
+
+.motphantu{
+    position: relative;
+    float: right;
+    margin-right: 200px;
+    margin-top: 7px ;
+    transition: 0.4s;
+}
+.tamgiac{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.danhsach{
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+}
+.danhsach:after{
+    content: "";
+    position: absolute;
+    top: -20px;
+    width: 20px;
+    height: 20px;
+    border: 11px rgba(255, 255, 255, 0) solid;
+    border-bottom-color: rgb(255, 255, 255);
+    right: 0px;
+}
+.tamgiactrang{
+    color: white;
+}
+
+.ra{
+    opacity: 1;
+    visibility: visible;
+}

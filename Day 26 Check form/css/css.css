@@ -1,0 +1,12 @@
+#main{
+    width: 1000px;
+    height: 320px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgb(30, 255, 0);
+}
+.row{
+    margin-top: 10px;
+}
+h1{
+    text-shadow: 10px 5px 10px rgb(255, 238, 0);
+}

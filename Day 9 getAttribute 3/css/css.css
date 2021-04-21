@@ -1,0 +1,33 @@
+.thanhxanh{
+    height: 50px;
+    background-color: #3b5998;
+    padding-left: 200px;
+}
+._1khoi{
+    float: left;
+    position: relative;
+}
+.dehienthi{
+    width: 200px;
+    position: absolute;
+    font-size: 13px;
+    
+    visibility: hidden;
+}
+
+.declick{
+    padding: 10px 12px;
+    transition: 0.4s;
+}
+
+.declick span.fa{
+    font-size: 20px;
+    cursor: pointer;
+}
+.hienthi{
+    opacity: 1;
+    visibility: visible;
+}
+.trang{
+    color: white;
+}

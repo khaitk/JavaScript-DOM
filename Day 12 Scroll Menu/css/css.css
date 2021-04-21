@@ -1,0 +1,23 @@
+.menu{
+    background: #000;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.4s;
+    width: 100%;
+    position: fixed;
+    height: 100px;
+    z-index: 2;
+}
+.phai a{
+    color: gray;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 0 40px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.nholai{
+    font-size: 20px;
+    padding: 20px 0px;
+}

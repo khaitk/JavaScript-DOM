@@ -1,0 +1,19 @@
+.card{
+    width: 282px;
+    height: 150px;
+}
+
+.animate{
+    transition: 0.2s;
+    animation: chuyendong 1.2s forwards;
+}
+@-webkit-keyframes chuyendong{
+    from{
+        /* transform: rotateY(180deg); */
+        transform: translateX(0px);
+    }
+    to{
+        /* transform: translateX(180deg); */
+        transform: translateX(200px);
+    }
+}

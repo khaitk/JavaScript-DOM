@@ -1,0 +1,59 @@
+.images-border{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.images{
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.icon-profile{
+    width: 100px;
+    height: 400px;
+    float: left;
+    position: relative;
+}
+.dinhdang{
+    width: 100px;
+    float: left;
+}
+#ten{
+    top: 10px;
+    left: 100px;
+}
+
+#sinhnhat{
+    top: 88px;
+    left: 100px;
+}
+
+#gmail{
+    top: 170px;
+    left: 100px;
+}
+#diachi{
+    top: 260px;
+    left: 100px;
+}
+#sdt{
+    top: 350px;
+    left: 100px;
+}
+#ten, #sinhnhat, #gmail, #diachi, #sdt{
+    width: 400px;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    color: chartreuse;
+    text-shadow: 5px 10px 10px red;
+}
+.table{
+    font-size: 20px;
+}

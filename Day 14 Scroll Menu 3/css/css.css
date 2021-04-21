@@ -1,0 +1,44 @@
+.banner{
+    height: 250px;
+    background: url('../images/truyenthong.jpg') no-repeat center;
+    background-size: cover;
+}
+.menu{
+    height: 50px;
+    line-height: 50px;
+    background:red;
+    transition: 0.4s;
+}
+.menu a{
+    color: white;
+    padding: 0px 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.menuden{
+    background: #000;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0px;
+}
+.chungtoi.vangdunglai{
+    position: fixed;
+    top: 50px;
+
+}
+.s4{
+    transition: 0.4s;
+    opacity:0 ;
+}
+.s4.dilen{
+    animation: cdlen 1s ease forwards;
+
+}
+@-webkit-keyframes cdlen{
+    from{
+        transform: translateY(100px); opacity: 0;
+    }to{
+        transform: translateY(0px); opacity: 1;
+    }
+}
